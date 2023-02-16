@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban em JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kanban">
+    <div class="column">
+      <h2>To do</h2>
+      <div class="card" draggable="true">
+        <p>Fazer compras</p>
+      </div>
+      <div class="card" draggable="true">
+        <p>Ler livro</p>
+      </div>
+      <div class="card" draggable="true">
+        <p>Estudar JavaScript</p>
+      </div>
+    </div>
+    <div class="column">
+      <h2>In progress</h2>
+      <div class="card" draggable="true">
+        <p>Escrever artigo</p>
+      </div>
+    </div>
+    <div class="column">
+      <h2>Done</h2>
+      <div class="card" draggable="true">
+        <p>Enviar e-mail</p>
+      </div>
+    </div>
+   
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
